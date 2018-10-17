@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Horoscope</string>
+    <string name="dally_horoscope">DALLY HOROSCOPE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="notifications">Notifications</string>
+  <string name="_06_00">06:00</string>
+  <string name="cancel">CANCEL</string>
+  <string name="ok">ACCEPT</string>
+  <string name="time">Time</string>
+  <string name="horoscope_today">It\'s one thing to be a friend and it\'s another to feed someone\'s ego just to make him or her happy, Gemini. Make sure that you aren\'t telling someone lies just because you know that that is what he or she wants to hear. A true friend is someone who is honest at all times, even if it means that you may temporarily hurt that person\'s feelings.</string>
+
+  <string-array name="language_option">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+    </string-array>
+
+</resources>

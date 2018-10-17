@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#2e2030">
+
+  <ImageButton
+    android:padding="24dp"
+    android:id="@+id/settings"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:background="@android:color/transparent"
+    android:src="@drawable/ic_bell"/>
+
+  <android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+      android:id="@+id/aries"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_aries"
+      app:layout_constraintBottom_toBottomOf="@id/cancer"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@id/taurus"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+      android:id="@+id/taurus"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_taurus"
+      app:layout_constraintBottom_toBottomOf="@id/leo"
+      app:layout_constraintLeft_toRightOf="@id/aries"
+      app:layout_constraintRight_toLeftOf="@id/gemini"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+      android:id="@+id/gemini"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_gemini"
+      app:layout_constraintBottom_toBottomOf="@id/virgo"
+      app:layout_constraintLeft_toRightOf="@id/taurus"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+      android:id="@+id/cancer"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_cancer"
+      app:layout_constraintBottom_toTopOf="@id/libra"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@id/leo"
+      app:layout_constraintTop_toBottomOf="@id/aries" />
+
+    <ImageButton
+      android:id="@+id/leo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_leo"
+      app:layout_constraintBottom_toTopOf="@id/scorpio"
+      app:layout_constraintLeft_toRightOf="@id/cancer"
+      app:layout_constraintRight_toLeftOf="@id/virgo"
+      app:layout_constraintTop_toBottomOf="@id/taurus" />
+
+    <ImageButton
+      android:id="@+id/virgo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_virgo"
+      app:layout_constraintBottom_toTopOf="@id/gemini"
+      app:layout_constraintLeft_toRightOf="@id/leo"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/sagittarius" />
+
+    <ImageButton
+      android:id="@+id/libra"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_libra"
+      app:layout_constraintBottom_toTopOf="@id/capricorn"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@id/scorpio"
+      app:layout_constraintTop_toBottomOf="@id/cancer" />
+
+    <ImageButton
+      android:id="@+id/scorpio"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_scorpio"
+      app:layout_constraintBottom_toTopOf="@id/aquarius"
+      app:layout_constraintLeft_toRightOf="@id/libra"
+      app:layout_constraintRight_toLeftOf="@id/sagittarius"
+      app:layout_constraintTop_toBottomOf="@id/leo" />
+
+    <ImageButton
+      android:id="@+id/sagittarius"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_sagittarius"
+      app:layout_constraintBottom_toTopOf="@id/pisces"
+      app:layout_constraintLeft_toRightOf="@id/scorpio"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/virgo" />
+
+    <ImageButton
+      android:id="@+id/capricorn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_capricorn"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@id/aquarius"
+      app:layout_constraintTop_toBottomOf="@id/libra" />
+
+    <ImageButton
+      android:id="@+id/aquarius"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_aquarius"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@id/capricorn"
+      app:layout_constraintRight_toLeftOf="@id/pisces"
+      app:layout_constraintTop_toBottomOf="@id/scorpio" />
+
+    <ImageButton
+      android:id="@+id/pisces"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_pisces"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@id/aquarius"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/sagittarius" />
+
+  </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
